@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Book_the_doctor</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="qwerty.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<style>
+body {
+	padding-top: 40px;
+}
+.p1 {
+	color: black;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+	margin: auto;
+}
+.responsive-image {
+	width: 100%;
+	background-size: 100% 100%;
+}
+.y5{
+
+font-family:AR BLANCA;
+color: red;
+}
+
+and 
+finally
+,
+we 
+serve 
+for 
+every 
+view-port 
+the 
+right
+image
+: /* Retina display */
+@media screen and (min-width: 1024px) {
+	.responsive-image {
+		background-image: url('../img/retina.jpg');
+	}
+}
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px) {
+	.responsive-image {
+		background-image: url('../img/desktop.jpg');
+	}
+}
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px) {
+	.responsive-image {
+		background-image: url('../img/tablet.jpg');
+	}
+}
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px) {
+	.responsive-image {
+		background-image: url('../img/mobile-hd.jpg');
+	}
+}
+/* Mobile LD */
+@media screen and (max-width: 350px) {
+	.responsive-image {
+		background-image: url('../img/mobile-ld.jpg');
+	}
+}
+</style>
+</head>
+<body data-spy="scroll" data-target="#my-navbar">
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a href=" " class="navbar-brand y5">BtD</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+			
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#feedback">Feedback</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#login">Login/Register</a></li>
+					<li><a href="#faq">F.A.Q</a></li>
+					<li><a href="#contact">ContactUs</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron responsive-image"
+		style="background-image: url(hms1.jpg)";>
+		<div class="container text-center roy">
+			<h1>
+				<b class="y5">BookTheDoctor.com</b>
+			</h1>
+			<p class="p1">(An OPD appointment booking system for hospital)
+				</p>
+		</div>
+	</div>
+	<div class="container">
+		<section>
+			<div class="page-header" id="feedback">
+				<h2>Know Us..</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<blockquote>
+						<p>
+							<b>The scheduling of patient and doctor's appointments can be done from this System. The details
+							 about schedule of a doctor, slots available in his schedule, scheduled slots, blocked slots,
+							  tracking of patients and their visits, scheduling appointments for unregistered patients and
+							   emergency patients can be viewed effortlessly. Scheduling, rescheduling and manipulating of
+							    appointments can be done easily from our patient registration System.
+							 Managing of patient records can also be handled effortlessly. We positively believe this tool can overcome most
+								of these challenges by effectively connecting the Doctors
+								with the patients.</b>
+						</p>
+						<footer></footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- Gallery -->
+	<div class="container" style="background-image: url(r6.jpg);">
+		<section>
+			<div class="page-header p1" id="gallery">
+				<h2>
+					Gallery.<small><b>Check it out</b></small>
+				</h2>
+			</div>
+			<div class="carousel slide" id="screenshot-carousel"
+				data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0"
+						class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="n2.jpg" alt="Text of the image">
+					</div>
+					<div class="item">
+						<img src="n1.jpg" height="650px" alt="Text of the image">
+					</div>
+					<div class="item">
+						<img src="blood5.jpg" alt="Text of the image">
+					</div>
+					<div class="item">
+						<img src="blood7.jpg" alt="Text of the image">
+					</div>
+				</div>
+				<!-- End Carousel inner -->
+				<a href="#screenshot-carousel" class="left carousel-control"
+					data-slide="prev"> <span
+					class="glyphicon glyphicon-chevron-left"></span>
+				</a> <a href="#screenshot-carousel" class="right carousel-control"
+					data-slide="next"> <span
+					class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+			<!-- End Carousel -->
+			<hr>
+		</section>
+	</div>
+	<section>
+		<div class="well">
+			<div class="container text-center" id="login">
+				<h2>Login</h2>
+				<p>
+					<b>Enter your email and password</b>
+				</p>
+				<form action="log1.jsp" method="post" class="form-inline">
+					<div class="form-group">
+						<label for="email">Email</label> <input type="text"
+							class="form-control" name="email" placeholder="Enter email">&nbsp;
+					</div>
+					<div class="form-group">
+						<label for="pwd">Password </label> <input type="password"
+							class="form-control" name="p1" placeholder="Enter Password">
+					</div>
+					<button type="submit" class="btn btn-warning">SignIn</button>
+					<hr>
+				</form>
+				<div class="container">
+					<h2>New Member , Register Now</h2>
+					<form name="SignUpForm" onsubmit="return validate()" class="form-horizontal" role="form" method="post"
+						action="reg1.jsp">
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="name">Name:</label>
+							<div class="col-sm-10">
+								<input type="text" required class="form-control" id="name"
+									name="name" placeholder="Enter name">
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="age">Age:</label>
+							<div class="col-sm-10">
+								<input type="number" 
+									class="form-control" name="age" id="age"
+									placeholder="Enter age">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="comment">Enter
+								Adress:</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" name="address" required rows="3"
+									id="address" placeholder="Enter address"></textarea>
+							</div>
+						</div>
+						
+						
+						
+						
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="email">email:</label>
+							<div class="col-sm-10">
+								<input type="email" required class="form-control" name="email"
+									id="email" placeholder="Enter email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="Mobileno">Mobile
+								Number:</label>
+							<div class="col-sm-10">
+								<input type="number" required class="form-control" name="mobile"
+									id="mobile" placeholder="Enter number">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="pwd">Enter
+								Password:</label>
+							<div class="col-sm-10">
+								<input type="password" required class="form-control"
+									name="password" id="password" placeholder="Enter password">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="pwd">Re-Enter
+								password:</label>
+							<div class="col-sm-10">
+								<input type="password" required class="form-control"
+									name="rpassword" id="rpassword" placeholder="re-enter password">
+							</div>
+						</div>
+						
+						
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10" name="err" id="err"
+								style="color: 'red'; font-size: 15px;"></div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="Register" class="btn btn-warning">Register</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- end Container-->
+		</div>
+		<!-- end well-->
+	</section>
+	<!-- Call to action -->
+	</div>
+	</div>
+	<!-- Faq -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="faq">
+				<h2>
+					FAQ.<small>get answer to your queries</small>
+				</h2>
+			</div>
+			<!-- End Page Header -->
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-1" data-toggle="collapse"
+								data-parent="#accordion"> <b>How many appointments can I book with same account
+							</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-1" class="panel-collapse collapse in">
+							<div class="panel-body">You can book as many appointments with same account eg:-you can book
+							appointments with 2 different doctors on a same day or you can book an appointment for any other person in family</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-3" data-toggle="collapse"
+								data-parent="#accordion"> <b>For how many days is the appointment valid</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-3" class="panel-collapse collapse">
+							<div class="panel-body">Right now, you can only book appointment for next 7 days. After 7 days
+							your appointment will get expired automatically </div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-4" data-toggle="collapse"
+								data-parent="#accordion"> <b>Is bookTheDoctor free to use ?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-4" class="panel-collapse collapse">
+							<div class="panel-body"><b>YES, Its FREE</b></div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-5" data-toggle="collapse"
+								data-parent="#accordion"> <b>What type of confirmation will i get after  booking an appointment??</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-5" class="panel-collapse collapse">
+							<div class="panel-body">You will get a message from the respective hospital whose appointment you have booked. </div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-6" data-toggle="collapse"
+								data-parent="#accordion"> <b>Can I book apointment for 1 hospital or many hospitals?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-6" class="panel-collapse collapse">
+							<div class="panel-body">Right now only limited hospitals are available to book an appointment with but dont worry
+							we are working to partner with more hospitals.</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-7" data-toggle="collapse"
+								data-parent="#accordion"> <b>Can anyone use this system</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-7" class="panel-collapse collapse">
+							<div class="panel-body">anyone who is a citezen of India is free to use this system</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-8" data-toggle="collapse"
+								data-parent="#accordion"> <b>How can I support you?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-8" class="panel-collapse collapse">
+							<div class="panel-body">Just use the system , spread the word , and inform us about the bugs or any problem
+							that you face through contact us section</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+			</div>
+			<!-- End panel group -->
+		</section>
+	</div>
+	<!-- End container -->
+	<!-- Contact -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="contact">
+				<h2>
+					Contact Us.<small> Contact us for more.</small>
+				</h2>
+			</div>
+			<!-- End Page Header -->
+			<div class="row">
+				<div class="col-lg-4">
+					<p>Send us a message, or contact us from the address below</p>
+					<address>
+						<strong>Saksham Bhatheja</strong></br> New Delhi </br> India </br> New Delhi -
+						110034</br> P: +91 9643889394
+						<hr>
+						
+					</address>
+				</div>
+				<div class="col-lg-8">
+					<form action="" class="form-horizontal">
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">Name</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-name"
+									placeholder="Enter your name">
+							</div>
+						</div>
+						<!-- End form group -->
+						<div class="form-group">
+							<label for="user-email" class="col-lg-2 control-label">Email</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email"
+									placeholder="Enter your Email Address">
+							</div>
+						</div>
+						<!-- End form group -->
+						<div class="form-group">
+							<label for="user-url" class="col-lg-2 control-label">Your
+								Website</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email"
+									placeholder="If you have Any.">
+							</div>
+						</div>
+						<!-- End form group -->
+						<div class="form-group">
+							<label for="user-message" class="col-lg-2 control-label">Any
+								Message</label>
+							<div class="col-lg-10">
+								<textarea name="user-message" id="user-message"
+									class="form-control" cols="20" rows="10"
+									placeholder="Enter your Message"></textarea>
+							</div>
+						</div>
+						<!-- End form group -->
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- End the row -->
+		</section>
+	</div>
+	<script
+		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script>
+		function validate(){
+			 var x = document.forms["SignUpForm"]["name"].value;
+			var e=document.getElementById("err");
+			if(!validateName(x)){
+				 e.innerHTML="Please input valid name";
+	                document.forms["SignUpForm"]["name"].focus();
+	                return false;
+			}
+			 var pin = document.forms["SignUpForm"]["pin"].value;
+			if(!validatePincode(pin)){
+				e.innerHTML="invalid pincode";
+				document.forms["SignUpForm"]["pin"].focus();
+				return false;
+			}
+			 var mob= document.forms["SignUpForm"]["mobile"].value;
+			if(!validateContact(mob)){
+				e.innerHTML="invalid number";
+				document.forms["SignUpForm"]["mobile"].focus();
+				return false;
+			}
+			 var p= ""+document.forms["SignUpForm"]["password"].value;
+			 var cp= ""+document.forms["SignUpForm"]["rpassword"].value;
+			if(p.equals(cp)!=true){
+				e.innerHTML="password did not match";
+				document.forms["SignUpForm"]["password"].focus();
+				return false;
+			}
+			if(!ValidCaptcha()){
+				e.innerHTML="captcha did not match";
+				document.forms["SignUpForm"]["captcha"].focus();
+				return false;
+			}
+			return true;
+		}
+		function validatePincode(num){
+			var x;
+			for(var i=0;i<num.length;i++){
+				if(!(0<=num.charAt(i)<=9)){
+					return false;
+				}
+			}
+			return true;
+		}
+		function validateContact(num){
+			var x;
+			for(var i=0;i<num.length;i++){
+				if(!(0<=num.charAt(i)<=9)){
+					return false;
+				}
+			}
+			if(num.length==10)
+			return true;
+			return false;
+		}
+			function validateName(text){
+				var t=text.trim;
+				for(var i=0;i<t.length;i++){
+					if(!(90>=text.charAt(i)>=65)){
+							return false;
+						}
+					}
+				return true;
+			}
+		  function Captcha(){
+              var alpha = new Array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z');
+              var i;
+              for (i=0;i<6;i++){
+                var a = alpha[Math.floor(Math.random() * alpha.length)];
+                var b = alpha[Math.floor(Math.random() * alpha.length)];
+                var c = alpha[Math.floor(Math.random() * alpha.length)];
+                var d = alpha[Math.floor(Math.random() * alpha.length)];
+                var e = alpha[Math.floor(Math.random() * alpha.length)];
+                var f = alpha[Math.floor(Math.random() * alpha.length)];
+                var g = alpha[Math.floor(Math.random() * alpha.length)];
+               }
+             var code = a + ' ' + b + ' ' + ' ' + c + ' ' + d + ' ' + e + ' '+ f + ' ' + g;
+             document.getElementById("captcha").value = code;
+           }
+           function ValidCaptcha(){
+               var string1 = removeSpaces(document.getElementById('mainCaptcha').value);
+               var string2 = removeSpaces(document.getElementById('captcha').value);
+               if (string1 == string2){
+                 return true;
+               }
+               else{        
+                 return false;
+               }
+           }
+           function removeSpaces(string){
+             return string.split(' ').join('');
+           }
+		</script>
+</body>
+</html>
